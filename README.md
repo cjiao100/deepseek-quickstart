@@ -19,7 +19,7 @@ git clone https://github.com/DjangoPeng/deepseek-quickstart.git
 
 - Python 环境管理 [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/)
 - Python 交互式开发环境 [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html)
-- [OpenAI Python SDK](https://github.com/openai/openai-python?tab=readme-ov-file#installation) 
+- [OpenAI Python SDK](https://github.com/openai/openai-python?tab=readme-ov-file#installation)
 
 
 *⚠️注意：DeepSeek API 使用与 OpenAI 兼容的 API 格式，通过修改配置，您可以使用 OpenAI SDK 来访问 DeepSeek API，或使用与 OpenAI API 兼容的软件。*
@@ -64,7 +64,7 @@ Logfile is /var/log/cuda-installer.log
 安装完成后，使用 `nvidia-smi` 指令查看版本：
 
 ```shell
-Mon Jun  9 12:05:27 2025       
+Mon Jun  9 12:05:27 2025
 +-----------------------------------------------------------------------------------------+
 | NVIDIA-SMI 550.54.14              Driver Version: 550.54.14      CUDA Version: 12.4     |
 |-----------------------------------------+------------------------+----------------------+
@@ -76,7 +76,7 @@ Mon Jun  9 12:05:27 2025
 | N/A   57C    P0             28W /   70W |       0MiB /  16384MiB |      7%      Default |
 |                                         |                        |                  N/A |
 +-----------------------------------------+------------------------+----------------------+
-                                                                                         
+
 +-----------------------------------------------------------------------------------------+
 | Processes:                                                                              |
 |  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
@@ -103,7 +103,7 @@ rm -rf ~/miniconda3/miniconda.sh
 conda create -n deepseek python=3.13
 
 # 激活环境
-conda activate deepseek 
+conda activate deepseek
 ```
 
 之后每次使用需要激活此环境。
